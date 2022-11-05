@@ -66,7 +66,7 @@ def main():
 
   for i in range(m):
     for j in range(n):
-      print(screen[i][j], end =' ')
-    print()
+      st.write(screen[i][j], end =' ')
+    st.write()
 
 main()
