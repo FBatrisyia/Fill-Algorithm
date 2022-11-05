@@ -1,8 +1,1 @@
-altair
-pandas
-streamlit
-sklearn
-seaborn
-matplotlib
-sklearn
-display_latex
+
