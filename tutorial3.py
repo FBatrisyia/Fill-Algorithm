@@ -42,6 +42,9 @@ def main():
   
   st.header("Flood Fill Algorithm")
   
+  st.write("Before Algorithm")
+  st.write(screen)
+  
   screen =[
   [1, 1, 1, 1, 1, 1, 1, 1],
   [1, 1, 1, 1, 1, 1, 0, 0],
@@ -64,12 +67,13 @@ def main():
 
   flood_fill(screen, m, n, x, y, old_colour, new_colour)
   
+  st.write("After Algorithm")
   st.write("[")
   for i in range(m):
     for j in range(n):
       st.write(screen[i][j], end =' ')
     st.write()
-  st.write("[")
+  st.write("]")
 
 
 main()
