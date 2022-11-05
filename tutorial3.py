@@ -63,10 +63,10 @@ def main():
   new_colour = 5
 
   flood_fill(screen, m, n, x, y, old_colour, new_colour)
-
+  
+  st.write("[")
   for i in range(m):
-    for j in range(n):
-      st.write("[" screen[i][j] "]")
-    st.write()
+     st.write("screen[i][j])
+   st.write("]")
 
 main()
