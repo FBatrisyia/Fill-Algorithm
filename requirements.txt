@@ -1,2 +1,4 @@
 matplotlib
-display_latex
+latex
+display
+display latex
