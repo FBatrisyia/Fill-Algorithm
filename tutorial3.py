@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
 #Flood Fill Algorithm
+
+import streamlit as st
 
 def is_valid(screen, m, n, x, y, old_colour, new_colour):
   if(x<0 or x>=m or y<0 or y>= n or screen[x][y]!= old_colour or screen [x][y] == new_colour):
@@ -38,6 +39,9 @@ def flood_fill(screen, m, n, x, y, old_colour, new_colour):
 
 
 def main():
+  
+  st.header("Flood Fill Algorithm")
+  
   screen =[
   [1, 1, 1, 1, 1, 1, 1, 1],
   [1, 1, 1, 1, 1, 1, 0, 0],
