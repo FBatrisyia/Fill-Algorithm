@@ -1,4 +1,3 @@
 matplotlib
 latex
-display
-display latex
+
