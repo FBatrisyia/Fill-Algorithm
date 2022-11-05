@@ -66,7 +66,7 @@ def main():
   
   st.write("[")
   for i in range(m):
-     st.write("screen[i][j])
+     st.write(screen[i][j])
    st.write("]")
 
 main()
